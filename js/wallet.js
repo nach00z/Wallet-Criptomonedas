@@ -8,7 +8,12 @@ while (passaword != pass){
     passaword = prompt('Ingresa contraseña');
 }
 
-console.log('Bienvenido Usuario!');
+
+function saludar() {
+    alert('Bienvenido Usuario!');
+}
+saludar();
+
 
 let USDT = 800;
 let BTC = 300;
