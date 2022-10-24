@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Prozzer</title>
+</head>
+<body>
+
+<div class="grid-container">
+
+  <!----- Saldo Total ------>
+  <div class="seccion1">
+    <header>
+      <h1>Wallet</h1>
+      <h3 class="TOTAL">Balance Total</h3>
+      <p id="total">$1300</p>
+      
+    </header>
+  </div>
+
+  <!----- Busqueda ------>
+  <div class="seccion2">
+    <h2>Cotización</h2>
+    <h4>Consulta de precios del top 10 de criptomonedas segun su capitalización</h4>
+
+    <ol>
+      <li>BTC</li>
+      <li>ETH</li>
+      <li>USDT</li>
+      <li>USDC</li>
+      <li>BNB</li>
+      <li>XRP</li>
+      <li>BUSD</li>
+      <li>ADA</li>
+      <li>SOL</li>
+      <li>DOGE</li>
+    </ol>
+   
+    <!-- input busqueda -->
+    <label for="ingreso"></label>
+    <input type="text" name="ingreso" value="" id="ingreso" />
+
+    <button id="btnSearch" class="btn">Buscar</button>
+
+    <div id="cotizacion">
+
+    </div>
+  </div>
+
+  <div class="seccion3">
+
+    <!----- USDT ------>
+    <h3>USDT</h3>
+    <p id="precio-usdt">$800</p>
+
+    <!----- Deposito ------>
+    <label for="ingreso7"></label>
+    <input type='number' type="reset" name="ingreso7" value="" id="ingreso7" placeholder="Ingresa un valor" />
+    <button id="BtnDeposito" class="btn">Depositar</button>
+
+    <!----- Retiro ------>
+    <label for="ingreso2"></label>
+    <input type='number' name="ingreso2" value="" id="ingreso2" placeholder="Ingresa un valor" />
+    <button id="BtnRetiro" class="btn">Retirar</button>
+
+    <!----- BTC  ------>
+    <h3>BTC</h3>
+    <p id="precio-btc">$300</p>
+
+    <!-----COMPRAR  ------>
+    <label for="ingreso3"></label>
+    <input type='number' name="ingreso3" value="" id="ingreso3" placeholder="Ingresa un valor" />
+    <button id="btnBitcoin" class="btn">Comprar</button>
+
+    <!----- VENDER ------>
+    <label for="ingreso4"></label>
+    <input type='number' name="ingreso4" value="" id="ingreso4" placeholder="Ingresa un valor" />
+    <button id="btnBitcoin2" class="btn">Vender</button>
+    
+    <!----- ETH ------>
+    <h3>ETH</h3>
+    <p id="precio-eth">$200</p>
+
+    <!-----COMPRAR  ------>
+    <label for="ingreso5"></label>
+    <input type='number' name="ingreso5" value="" id="ingreso5" placeholder="Ingresa un valor" />
+    <button id="btnEther" class="btn">Comprar</button>
+
+
+    <!----- VENDER ------>
+    <label for="ingreso6"></label>
+    <input type='number' name="ingreso6" value="" id="ingreso6" placeholder="Ingresa un valor" />
+    <button id="btnEther2" class="btn">Vender</button>
+
+    </div>
+
+    <!----- Footer ------>
+    <div class="seccion4">
+      Redes sociales: Instagram / Facebook / Tik Tok
+    </div>
+
+</div>
+<script src="../js/wallet.js"></script> 
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.0/dist/sweetalert2.all.min.js"></script>
+       
+</body>
+</html>
+

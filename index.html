@@ -5,24 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wallet</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Registro</title>
+
 </head>
 
 <body>
 
-    <h1>Prozzer</h1>
-    <h2>Wallet</h2>
+    <main>
+        <div class="register">
+            <form action="" id="formulario">
+                <h2 id="form">Registrar</h2>
 
+                <div class="input-box">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="input-box">
+                    <label for="userReg">Usuario</label>
+                    <input type="text" id="userReg">
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="input-box">
+                    <label for="passReg">Contraseña</label>
+                    <input type="password" id="passReg">
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Registrar" id="registrar">
+                </div>
+                <div class="input-box">
+                    <span class="mensaje">¿Ya tiene cuenta?</span>
+                    <a href="./sections/login.html" class="link">Inicie Sesion</a>
+                </div>
+            </form>
+        </div>
 
-    <script>
-        //Comentario una sola linea
-        /* Comentario multilinea */
-    </script>
+    </main>
 
-    <!-- Forma Recomendada -->
-    <!-- <script src="./js/main.js"></script> -->
-    <script src="js/wallet.js"></script>
-
+    <script src=".js/registro.js"></script>
+   
 </body>
 
 </html>
