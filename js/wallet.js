@@ -228,9 +228,9 @@ btnEther2.addEventListener('click', ()=>{
 {
     id: 2,
     nombre: 'ethereum',
-     sigla: 'eth', 
+    sigla: 'eth', 
     precio: 1320,
-    capitalizacion: '$164 mil millones'  
+    cap: '$164 mil millones'  
 },
 {
     id: 3,
