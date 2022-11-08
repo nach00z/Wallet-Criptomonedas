@@ -1,28 +1,28 @@
 const btnIngresar = document.querySelector("#ingresar"),
       user = document.querySelector("#user"),
-      pass = document.querySelector("#pass");
+      contraseña = document.querySelector("#contra");
       
 function inicioSesion(usuarios) {
-  let userFound = usuarios.find((usuario)=>{
-    return usuario.usuario === user.value && usuario.pass === pass.value
+  let EncontrarUsario = usuarios.find((usuario)=>{
+    return usuario.usuario === user.value && usuario.pass === contraseña.value
   })
-  if (userFound){
+  if (EncontrarUsario){
       window.location.href= "../sections/wallet.html" 
   }else{
     document.querySelector("#mensaje").innerText= 
     "Usuario no encontrado"
   }
-  return userFound;
+  return EncontrarUsario;
 }
 
-function recuperarLocal() {
+function recuperarLocalStorage() {
   let datos = JSON.parse(localStorage.getItem("usuarios"));
   return datos;
 }
 
-const usuariosLocal = recuperarLocal();
+const usuariosRegistrados = recuperarLocalStorage();
 
 btnIngresar.addEventListener("click", (e) => {
   e.preventDefault();
-  inicioSesion(usuariosLocal)
+  inicioSesion(usuariosRegistrados)
 });

@@ -1,8 +1,8 @@
 const register = document.querySelector(".register"),
       email = document.querySelector("#email"),
       nombre = document.querySelector("#nombre"),
-      userReg = document.querySelector("#userReg"),
-      passReg = document.querySelector("#passReg"),
+      RegistroUsuario = document.querySelector("#usuario"),
+      RegistroPassword= document.querySelector("#password1"),
       btnRegistrar = document.querySelector("#registrar");
 
 let usuarios;
@@ -14,18 +14,18 @@ if (localStorage.getItem("usuarios")) {
 }
 
 class Usuario{
-    constructor(nombre, usuario, email, password) {
+    constructor(nombre, usuario, correo, password) {
         this.nombre = nombre;
         this.usuario = usuario;
-        this.email = email;
+        this.correo = correo;
         this.pass = password;
     }
-}
+} 
 
 function limpiarCampos() {
     nombre.value = "";
-    userReg.value = "";
-    passReg.value = "";
+    RegistroUsuario.value = "";
+    RegistroPassword.value = "";
     email.value = "";
 }
 
@@ -41,9 +41,9 @@ btnRegistrar.addEventListener("click", (e) => {
     e.preventDefault();
     let newUser = new Usuario(
         nombre.value,
-        userReg.value,
+        RegistroUsuario.value,
         email.value,
-        passReg.value
+        RegistroPassword.value
     );
     guardarUser(newUser);
     limpiarCampos();

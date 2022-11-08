@@ -1,0 +1,71 @@
+[
+{
+    "id": 1,
+    "nombre": "bitcoin",
+    "sigla": "btc", 
+    "precio": 19900,
+    "cap": "$371 mil millones"  
+},
+{
+    "id": 2,
+    "nombre": "ethereum",
+    "sigla": "eth", 
+    "precio": 1320,
+    "cap": "$164 mil millones"  
+},
+{
+    "id": 3,
+    "nombre": "theter",
+    "sigla": "usdt", 
+    "precio": 1,
+    "cap": "$68 mil millones"  
+},
+{
+    "id": 4,
+    "nombre": "usd Coin",
+    "sigla": "usdc", 
+    "precio": 1,
+    "cap": "$43 mil millones"  
+},
+{
+    "id": 5,
+    "nombre": "binance coin",
+    "sigla": "bnb", 
+    "precio": 280,
+    "cap": "$43 mil millones"  
+},
+{
+    "id": 6,
+    "nombre": "xrp",
+    "sigla": "xrp", 
+    "precio": 0.51,
+    "cap": "$22 mil millones"  
+},
+{
+    "id": 7,
+    "nombre": "binance usd",
+    "sigla": "busd", 
+    "precio": 0.99,
+    "cap": "$21 mil millones"  
+},
+{
+    "id": 8,
+    "nombre": "cardano",
+    "sigla": "ada", 
+    "precio": 0.42,
+    "cap": "$12 mil millones"  
+},
+{
+    "id": 9,
+    "nombre": "solana",
+    "sigla": "sol", 
+    "precio": 32,
+    "cap": "$10 mil millones"  
+},
+{
+    "id": 10,
+    "nombre": "dogecoin",
+    "sigla": "doge", 
+    "precio": 0.06,
+    "cap": "$7 mil millones"  
+}]
